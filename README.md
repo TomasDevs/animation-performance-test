@@ -4,7 +4,7 @@ This project compares the performance of animations created using CSS, unoptimiz
 
 ## Cloning and Running the Project
 
-To clone the project and run it locally, follow these steps:
+To clone the project and run it locally, follow these steps:@
 
 **1. Clone the repository:**
 
@@ -69,7 +69,7 @@ _Source: Created by TomasDevs (2024)_
 
 ## Analysis
 
-**CSS Animation **performs the best overall because it's hardware-accelerated by the browser, minimizing the amount of JavaScript processing and reducing the burden on the main thread. It maintains a low _Total Blocking Time_ and keeps the rendering and painting times minimal.
+**CSS Animation** performs the best overall because it's hardware-accelerated by the browser, minimizing the amount of JavaScript processing and reducing the burden on the main thread. It maintains a low _Total Blocking Time_ and keeps the rendering and painting times minimal.
 
 **Optimized JavaScript Animation** is a close second. While it requires more scripting time due to the use of JavaScript to calculate each frame, the use of _requestAnimationFrame_ helps ensure that it remains smooth and synchronized with the browser's rendering cycle.
 
